@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. Ateeb Uddin - Profile</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      color: #2c3e50;
+    }
+    .header {
+      background: linear-gradient(135deg, #0A1F44, #A57F00);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .header h1 { margin: 0; font-size: 28px; }
+    .header h2 { font-weight: normal; margin: 10px 0 0; font-size: 16px; }
+    .tabs {
+      text-align: center;
+      margin: 15px 0;
+    }
+    .tab-btn {
+      background-color: #0A1F44;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .tab-btn.active {
+      background-color: #A57F00;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .section { margin-bottom: 25px; }
+    .section h3 {
+      color: #0A1F44;
+      border-bottom: 2px solid #A57F00;
+      padding-bottom: 5px;
+    }
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .left, .right {
+      flex: 1 1 300px;
+    }
+    ul {
+      padding-left: 18px;
+    }
+    .cover-letter {
+      background: #f9f9f9;
+      padding: 20px;
+      border-left: 5px solid #0A1F44;
+      font-size: 15px;
+    }
+    a {
+      color: #0A1F44;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .header h1 { font-size: 22px; }
+      .header h2 { font-size: 14px; }
+      .tab-btn { font-size: 12px; padding: 8px 14px; }
+    }
+  </style>
+</head>
+<body>  <div class="header">
+    <h1>M. ATEEB UDDIN</h1>
+    <h2>Accountant & Tax Officer</h2>
+  </div>  <div class="tabs">
+    <button class="tab-btn active" onclick="showTab('cv')">CV</button>
+    <button class="tab-btn" onclick="showTab('cover')">Cover Letter</button>
+    <button class="tab-btn" onclick="showTab('social')">Social Media</button>
+  </div>  <div class="container" id="cv">
+    <div class="flex-container section">
+      <div class="left">
+        <h3>Contact</h3>
+        <p><strong>Phone:</strong> +92 332 2476448<br>
+        <strong>Email:</strong> muhammadateeb067@gmail.com<br>
+        <strong>Address:</strong> R-123, Falaknaz Dreams</p><h3>Skills</h3>
+    <ul>
+      <li>Financial Analysis & Reporting</li>
+      <li>Taxation (Income & Sales Tax Compliance)</li>
+      <li>Teamwork & Leadership</li>
+      <li>Auditing & Internal Controls</li>
+      <li>ERP Systems & Microsoft Excel</li>
+      <li>Business Advisory & Cost Control</li>
+    </ul>
+
+    <h3>Languages</h3>
+    <p>Urdu (Fluent)<br>English (Intermediate)</p>
+
+    <h3>Reference</h3>
+    <p>Available on request.</p>
+  </div>
+
+  <div class="right">
+    <h3>Profile</h3>
+    <p>Detail-oriented and highly motivated Accountant & Tax Specialist with hands-on experience in financial accounting, taxation, and internal audit. Currently managing accounts and tax matters at Artistic Towel Mills through AZ Consultants. Skilled in financial statements, cost control, and compliance.</p>
+
+    <h3>Work Experience</h3>
+    <p><strong>AZ Consultants</strong><br>Accountant & Tax Officer (Jul 2023 – Present)</p>
+    <ul>
+      <li>Handled accounts, tax compliance, and audits for Artistic Towel Mills.</li>
+      <li>Prepared and analyzed monthly, quarterly, and annual financial reports.</li>
+      <li>Supervised internal audit procedures and implemented cost-saving strategies.</li>
+      <li>Worked with ERP systems for payroll and tax entries.</li>
+      <li>Maintained tax filing schedules and resolved client tax issues efficiently.</li>
+      <li>Collaborated with cross-functional teams to streamline financial operations.</li>
+    </ul>
+
+    <p><strong>AZ Consultants</strong><br>Intern Accountant (Apr 2023 – Jun 2023)</p>
+    <ul>
+      <li>Managed bookkeeping and tax filing for Top Agencies (Cement Distributor).</li>
+      <li>Prepared payroll sheets and bank reconciliations.</li>
+      <li>Assisted in generating monthly tax returns and ledger management.</li>
+      <li>Learned client communication and professional reporting.</li>
+    </ul>
+
+    <h3>Education</h3>
+    <p><strong>BS Accounts & Finance</strong><br>Virtual University (2025 – 2029)</p>
+    <p><strong>Diploma in Financial Accounting</strong><br>Alison Online (2025 – 2026)</p>
+  </div>
+</div>
+
+  </div>  <div class="container" id="cover" style="display: none;">
+    <div class="section cover-letter">
+      <h3>Cover Letter</h3>
+      <p>Dear Hiring Manager,</p>
+      <p>I am writing to express my strong interest in an opportunity within your organization that aligns with my background in accounting and taxation. With proven expertise in financial reporting, tax compliance, and ERP systems, I have consistently contributed to accurate reporting, effective budgeting, and internal control development.</p>
+      <p>During my tenure at AZ Consultants and Artistic Towel Mills, I have independently managed tax filings, internal audits, and cost control reports that improved overall operational efficiency. I take pride in staying updated with current tax laws and have played a key role in implementing strategies that align with compliance and cost-effectiveness.</p>
+      <p>I am now seeking a professional environment where I can grow further and continue adding value with dedication and integrity. I look forward to contributing my skills and learning from a dynamic team of professionals.</p>
+      <p>Thank you for considering my application.<br>Sincerely,<br><strong>M. Ateeb Uddin</strong></p>
+    </div>
+  </div>  <div class="container" id="social" style="display: none;">
+    <div class="section">
+      <h3>Social Media</h3>
+      <p><strong>LinkedIn:</strong><br>
+        <a href="https://www.linkedin.com/in/muhammad-ateeb-45b894334" target="_blank">
+          linkedin.com/in/muhammad-ateeb
+        </a>
+      </p>
+    </div>
+  </div>  <script>
+    function showTab(tab) {
+      document.getElementById('cv').style.display = tab === 'cv' ? 'block' : 'none';
+      document.getElementById('cover').style.display = tab === 'cover' ? 'block' : 'none';
+      document.getElementById('social').style.display = tab === 'social' ? 'block' : 'none';
+
+      const buttons = document.querySelectorAll('.tab-btn');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      document.querySelector(`.tab-btn[onclick="showTab('${tab}')"]`).classList.add('active');
+    }
+  </script></body>
+</html>
